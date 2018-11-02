@@ -69,7 +69,7 @@ extension EthereumAdapter: IAdapter {
     }
 
     var lastBlockHeight: Int? {
-        return nil
+        return ethereumKit.lastBlockHeight
     }
 
     var debugInfo: String {
